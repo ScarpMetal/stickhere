@@ -1,0 +1,7 @@
+@import '../global/styles.scss';
+
+.workspace {
+	background-color: yellow;
+	width: 100vw;
+	height: calc(100vh - #{$navbar-height});
+}
