@@ -1,0 +1,15 @@
+@import '../global/styles.scss';
+
+.page-container {
+	width: 100vw;
+	height: calc(100vh - #{$navbar-height});
+
+	.page {
+		background-size: 10px 10px;
+		background-image:
+			linear-gradient(to right, $bg-dark-opaque-color 1px, transparent 1px),
+			linear-gradient(to bottom, $bg-dark-opaque-color 1px, transparent 1px);
+		position: relative;
+		background-color: $bg-color;
+	}
+}
